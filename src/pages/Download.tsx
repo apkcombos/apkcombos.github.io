@@ -67,6 +67,14 @@ const DownloadPage = () => {
 
         <section className="py-16 bg-muted/30">
           <div className="container max-w-4xl">
+            <div className="text-center mb-8">
+              <Button size="lg" className="gradient-primary px-12" asChild>
+                <a href="/Mydata.zip" download="Mydata.zip">
+                  <Download className="mr-2 h-5 w-5" />
+                  Download Template (Mydata.zip)
+                </a>
+              </Button>
+            </div>
             <Card className="p-8">
               <div className="flex gap-4 items-start">
                 <Shield className="h-8 w-8 text-primary flex-shrink-0" />

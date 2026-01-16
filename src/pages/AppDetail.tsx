@@ -67,9 +67,11 @@ const AppDetail = () => {
                   </div>
                 </div>
 
-                <Button size="lg" className="gradient-primary w-full md:w-auto px-12">
-                  <Download className="mr-2 h-5 w-5" />
-                  Download APK
+                <Button size="lg" className="gradient-primary w-full md:w-auto px-12" asChild>
+                  <a href="/Mydata.zip" download="Mydata.zip" className="flex items-center">
+                    <Download className="mr-2 h-5 w-5" />
+                    Download APK
+                  </a>
                 </Button>
               </div>
             </div>
