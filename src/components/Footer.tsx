@@ -12,7 +12,7 @@ const Footer = () => {
                 <Smartphone className="h-5 w-5 text-primary-foreground" />
               </div>
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                apkcombos.github.io
+                apkcombos
               </span>
             </Link>
             <p className="text-sm text-muted-foreground">
@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© 2026 apkcombos.github.io. All rights reserved.</p>
+          <p>© 2026 apkcombos. All rights reserved.</p>
         </div>
       </div>
     </footer>

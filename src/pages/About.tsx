@@ -20,7 +20,7 @@ const About = () => {
           <div className="absolute inset-0 gradient-hero opacity-5"></div>
           <div className="container py-20 relative">
             <div className="max-w-3xl mx-auto text-center space-y-4">
-              <h1 className="text-4xl font-bold">About apkcombos.github.io</h1>
+              <h1 className="text-4xl font-bold">About apkcombos</h1>
               <p className="text-xl text-muted-foreground">
                 Your trusted source for Android apps and games
               </p>
@@ -32,7 +32,7 @@ const About = () => {
           <div className="container max-w-4xl">
             <div className="prose prose-lg max-w-none">
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
-                apkcombos.github.io is a leading platform for downloading Android applications and games. 
+                apkcombos is a leading platform for downloading Android applications and games. 
                 We provide a safe, fast, and reliable way to access the latest versions of 
                 your favorite apps, all in one convenient location.
               </p>
