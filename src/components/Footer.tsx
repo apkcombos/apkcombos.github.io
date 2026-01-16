@@ -12,11 +12,11 @@ const Footer = () => {
                 <Smartphone className="h-5 w-5 text-primary-foreground" />
               </div>
               <span className="bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent">
-                APKHub
+                apkcombos.github.io
               </span>
             </Link>
             <p className="text-sm text-muted-foreground">
-              Download the latest APK files for Android apps and games.
+              Download the latest APK files for Android apps and games safely.
             </p>
           </div>
 
@@ -34,20 +34,21 @@ const Footer = () => {
             <ul className="space-y-2 text-sm text-muted-foreground">
               <li><Link to="/download" className="hover:text-primary transition-smooth">Download Guide</Link></li>
               <li><Link to="/about" className="hover:text-primary transition-smooth">About Us</Link></li>
+              <li><Link to="/contact" className="hover:text-primary transition-smooth">Contact Us</Link></li>
             </ul>
           </div>
 
           <div>
             <h3 className="font-semibold mb-4">Legal</h3>
             <ul className="space-y-2 text-sm text-muted-foreground">
-              <li><Link to="/about" className="hover:text-primary transition-smooth">Privacy Policy</Link></li>
-              <li><Link to="/about" className="hover:text-primary transition-smooth">Terms of Service</Link></li>
+              <li><Link to="/privacy-policy" className="hover:text-primary transition-smooth">Privacy Policy</Link></li>
+              <li><Link to="/terms-of-service" className="hover:text-primary transition-smooth">Terms of Service</Link></li>
             </ul>
           </div>
         </div>
 
         <div className="border-t mt-8 pt-8 text-center text-sm text-muted-foreground">
-          <p>© 2024 APKHub. All rights reserved.</p>
+          <p>© 2026 apkcombos.github.io. All rights reserved.</p>
         </div>
       </div>
     </footer>
